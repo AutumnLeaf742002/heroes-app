@@ -12,7 +12,7 @@ export const HeroesRoutes = () => {
                     <Route path="marvel" element={<Marvel />} />
                     <Route path="dc" element={<Dc />} />
                     <Route path="search" element={<Search />} />
-                    <Route path="heroe" element={<Heroe />} />
+                    <Route path="hero/:id" element={<Heroe />} />
                     <Route path="/" element={<Navigate to="marvel" />} />
                 </Routes>
             </div>

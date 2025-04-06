@@ -4,10 +4,10 @@ import { HeroesRoutes } from "../heroes/routes/"
 
 export const AppRouter = () => {
     return (
-        <>
+        <>  
             <Routes>
-                <Route path="login" element={<Login />} />
-                <Route path="/*" element={<HeroesRoutes />} />
+                <Route path="login" element={ <Login /> } />
+                <Route path="/*" element={ <HeroesRoutes /> } />
             </Routes>
         </>
     )
